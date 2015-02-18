@@ -2,12 +2,12 @@
 name = "date_diff"
 version = "0.0.1"
 dependencies = [
- "chrono 0.1.18 (registry+https://github.com/rust-lang/crates.io-index)",
+ "chrono 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "chrono"
-version = "0.1.18"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "time 0.1.17 (registry+https://github.com/rust-lang/crates.io-index)",
