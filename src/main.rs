@@ -2,7 +2,7 @@
 
 extern crate chrono;
 
-use chrono::{ Date, Local, TimeZone, };
+use chrono::{ Date, Local, TimeZone };
 
 fn main() {
     let date = match parse_date(std::env::args().nth(1)) {
